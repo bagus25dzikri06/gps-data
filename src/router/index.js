@@ -13,7 +13,7 @@ const router = () => {
           <Route index element={<Home />} />
           <Route path='login' element={<Login />} />
           <Route path='register' element={<Register />} />
-          <Route path='detail/:id' element={<DataDetailGPS />} />
+          <Route path='detail' element={<DataDetailGPS />} />
         </Route>
       </Routes>
     </BrowserRouter>
